@@ -1,9 +1,12 @@
 class CurrencyConverter::CLI
+
   def call
   end
+
   def greeting
     puts "Welcome to Currency Converter!"
   end
+
   def menu
     input = nil
     while input != "3"
@@ -24,15 +27,20 @@ class CurrencyConverter::CLI
       end
     end
   end
+
   def list_pairs
   end
 
   def choose_pair
   end
+
   def disclaimer
+  end
+
   def quit
     puts "Thank you for using Currency Converter!"
     exit
   end
   end
+
 end

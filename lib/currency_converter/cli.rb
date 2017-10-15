@@ -24,4 +24,9 @@ class CurrencyConverter::CLI
       end
     end
   end
+  def list_pairs
+  end
+
+  def choose_pair
+  end
 end

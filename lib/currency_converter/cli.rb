@@ -1,6 +1,7 @@
 class CurrencyConverter::CLI
 
   def call
+    start
   end
 
   def greeting
@@ -41,6 +42,10 @@ class CurrencyConverter::CLI
     puts "Thank you for using Currency Converter!"
     exit
   end
+
+  def start
+    greeting
+    menu
   end
 
 end

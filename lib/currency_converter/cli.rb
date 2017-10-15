@@ -29,4 +29,6 @@ class CurrencyConverter::CLI
 
   def choose_pair
   end
+  def disclaimer
+  end
 end

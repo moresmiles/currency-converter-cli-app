@@ -30,5 +30,9 @@ class CurrencyConverter::CLI
   def choose_pair
   end
   def disclaimer
+  def quit
+    puts "Thank you for using Currency Converter!"
+    exit
+  end
   end
 end

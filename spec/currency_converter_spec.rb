@@ -9,3 +9,4 @@ RSpec.describe CurrencyConverter do
     expect(false).to eq(true)
   end
 end
+ 

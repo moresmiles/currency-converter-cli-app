@@ -1,0 +1,2 @@
+class CurrencyConverter::Pairs
+end

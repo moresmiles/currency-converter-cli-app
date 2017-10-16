@@ -37,7 +37,6 @@ class CurrencyConverter::CLI
 
   def choose_pair
     input = gets.strip
-      if input.to_i > 0 
       if input.to_i > 0 && input.to_i < 12
         pair = CurrencyConverter::Pairs.find(input.to_i)
         print_pair(pair)

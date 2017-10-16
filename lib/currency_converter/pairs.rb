@@ -1,5 +1,10 @@
 class CurrencyConverter::Pairs
+
   attr_accessor :name, :value, :net_change, :time
+
+  def self.all
+    currency_scraper
+  end
 
   def self.currency_scraper
 

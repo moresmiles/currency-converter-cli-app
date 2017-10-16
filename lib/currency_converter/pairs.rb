@@ -6,6 +6,10 @@ class CurrencyConverter::Pairs
     currency_scraper
   end
 
+  def self.find(num)
+    self.all[num-1]
+  end
+
   def self.currency_scraper
 
     doc = Nokogiri::HTML(open("https://www.bloomberg.com/markets/currencies"))

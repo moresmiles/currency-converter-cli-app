@@ -36,6 +36,18 @@ class CurrencyConverter::CLI
   end
 
   def choose_pair
+
+  def print_pair(pair)
+    puts "      #{pair.name}    "
+    puts "-----------------------"
+    puts "       Value"
+    puts "       #{pair.value}"
+    puts "-----------------------"
+    puts "     Net Change"
+    puts "       #{pair.net_change}"
+    puts "-----------------------"
+    puts "  Last Time Checked (ET)"
+    puts "        #{pair.time}"
   end
 
   def disclaimer

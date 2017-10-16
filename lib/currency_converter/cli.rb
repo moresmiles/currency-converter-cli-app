@@ -30,6 +30,9 @@ class CurrencyConverter::CLI
   end
 
   def list_pairs
+    puts "Enter the number of the currency pair you wish to see more information about:"
+      CurrencyConverter::Pairs.currency_scraper.each.with_index(1) do |pair, i|
+      puts "#{i}. #{pair.name}"
   end
 
   def choose_pair

@@ -6,3 +6,4 @@ module CurrencyConverter
   # Your code goes here...
 end
 require_relative './currency_converter/cli'
+require_relative './currency_converter/pairs'

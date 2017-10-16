@@ -36,6 +36,16 @@ class CurrencyConverter::CLI
   end
 
   def choose_pair
+    input = gets.strip
+      if input.to_i > 0 
+        pair = CurrencyConverter::Pairs.find(input.to_i)
+        print_pair(pair)
+      else
+        puts "I'm sorry that is not a valid entry"
+      end
+      menu
+    end
+  end
 
   def print_pair(pair)
     puts "      #{pair.name}    "

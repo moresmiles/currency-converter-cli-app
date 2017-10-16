@@ -39,6 +39,8 @@ class CurrencyConverter::CLI
   end
 
   def disclaimer
+    CurrencyConverter::Pairs.disclaimer_scraper
+    menu
   end
 
   def quit

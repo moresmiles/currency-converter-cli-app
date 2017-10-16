@@ -16,4 +16,11 @@ class CurrencyConverter::Pairs
     end
     pairs_array
   end
+
+  def self.disclaimer_scraper
+    doc = Nokogiri::HTML(open("https://www.bloomberg.com/markets/currencies"))
+    disclaimer = doc.search("div.bottom-disclaimer").text
+    puts disclaimer
+  end
+
 end

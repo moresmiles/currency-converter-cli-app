@@ -7,3 +7,5 @@ module CurrencyConverter
 end
 require_relative './currency_converter/cli'
 require_relative './currency_converter/pairs'
+require 'nokogiri'
+require 'open-uri'

@@ -1,4 +1,4 @@
-# CurrencyConverter
+# Currency Converter
 
 This Ruby Gem provides a CLI to view updated information about the most popular currency conversion pairs according to the Bloomberg markets website.
 

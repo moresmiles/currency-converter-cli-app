@@ -20,7 +20,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/moresmiles/currency_converter.
+Bug reports and pull requests are welcome on GitHub at https://github.com/moresmiles/currency-converter-cli-app.
 
 ## License
 
